@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn {
+  border-color: #ff5000;
+  color: #fff;
+  background-image: linear-gradient(135deg, #fc5e22 10%, #f59159 155%);
+  box-shadow: 0 8px 16px -5px rgba(255, 165, 0, 0.86);
+  background: #fc5e22;
+  background: linear-gradient(
+    135deg,
+    rgb(252, 94, 34) 0%,
+    rgb(245, 144, 88) 100%
+  );
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+.in-video-sec {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.message-sec {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #3b4046;
+  background-color: transparent;
+}
